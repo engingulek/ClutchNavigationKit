@@ -1,0 +1,33 @@
+{
+  "originHash" : "5cb580a2d8f41f2c22f068290e976f98491dbcdcc914f0efb16fc8ba7a8c745d",
+  "pins" : [
+    {
+      "identity" : "clutchmodularprotocols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ClutchModularProtocols",
+      "state" : {
+        "revision" : "c79a6dfa3b61d1db4a27c2e9c66cef15160e1c03",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "hpdependencykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/HPDependencyKit",
+      "state" : {
+        "revision" : "c9305c28ff55ad6eb257fbcfd014f49be7d8f47a",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "revision" : "be9dbcc7b86811bc131539a20c6f9c2d3e56919f",
+        "version" : "2.9.1"
+      }
+    }
+  ],
+  "version" : 3
+}
