@@ -10,6 +10,7 @@ import ClutchModularProtocols
 ///  An enum representing pages in the application.
 public enum Page : Hashable {
     case onboarding
+    case account
 }
 
 
@@ -41,6 +42,9 @@ public class Navigation : ObservableObject {
             /// Dependency resolution and view creation for the home page
             let onboardingModule:OnboardingModuleProtocol = DependencyRegister.shared.resolve(OnboardingModuleProtocol.self)
             onboardingModule.createOnboardingModuleView()
+        case .account:
+            let accountModule:AccountModuleProtocol = DependencyRegister.shared.resolve(AccountModuleProtocol.self)
+            accountModule.createAccountModule()
         
         }
     }
