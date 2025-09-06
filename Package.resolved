@@ -1,13 +1,13 @@
 {
-  "originHash" : "5cb580a2d8f41f2c22f068290e976f98491dbcdcc914f0efb16fc8ba7a8c745d",
+  "originHash" : "9d152cb5b15c0fa9eac42d9e7723a4dfa4e2c0c4f79186f252cfe5e4789af160",
   "pins" : [
     {
       "identity" : "clutchmodularprotocols",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchModularProtocols",
       "state" : {
-        "revision" : "c79a6dfa3b61d1db4a27c2e9c66cef15160e1c03",
-        "version" : "0.0.1"
+        "revision" : "3466f7ac5d9eb9676b80dc536ee7ae67fdbcb475",
+        "version" : "0.0.2"
       }
     },
     {
