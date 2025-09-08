@@ -11,6 +11,7 @@ import ClutchModularProtocols
 public enum Page : Hashable {
     case onboarding
     case account
+    case selectFavTeam
 }
 
 
@@ -45,6 +46,9 @@ public class Navigation : ObservableObject {
         case .account:
             let accountModule:AccountModuleProtocol = DependencyRegister.shared.resolve(AccountModuleProtocol.self)
             accountModule.createAccountModule()
+        case .selectFavTeam:
+            let selectFavoriteTeamModule : SelectFavoriteTeamModuleProtocol = DependencyRegister.shared.resolve(SelectFavoriteTeamModuleProtocol.self)
+            selectFavoriteTeamModule.createSelecteFavoriteTeamModule()
         
         }
     }
