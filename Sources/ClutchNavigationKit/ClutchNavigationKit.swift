@@ -12,6 +12,9 @@ public enum Page : Hashable {
     case onboarding
     case account
     case selectFavTeam
+    case home
+    case favMatchList
+    case standing
 }
 
 
@@ -50,6 +53,18 @@ public class Navigation : ObservableObject {
             let selectFavoriteTeamModule : SelectFavoriteTeamModuleProtocol = DependencyRegister.shared.resolve(SelectFavoriteTeamModuleProtocol.self)
             selectFavoriteTeamModule.createSelecteFavoriteTeamModule()
         
+        case .home:
+            let homeModule :HomeModuleProtocol =
+            DependencyRegister.shared.resolve(HomeModuleProtocol.self)
+            homeModule.createHomeModule()
+        case .favMatchList:
+            let favMatchModule :FavMatchListModuleProtocol =
+            DependencyRegister.shared.resolve(FavMatchListModuleProtocol.self)
+            favMatchModule.createFavMatchListModule()
+        case .standing:
+            let standingModule :StandingModuleProtocol =
+            DependencyRegister.shared.resolve(StandingModuleProtocol.self)
+            standingModule.createStandingModule()
         }
     }
 }
