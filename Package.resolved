@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/engingulek/ClutchModularProtocols",
       "state" : {
-        "revision" : "9d2e6d0884a26be3fd67f98f8bc114fcd1018a53",
-        "version" : "0.0.3"
+        "revision" : "f03f721543d41c316068a86bac7ca2a1a44c088a",
+        "version" : "0.0.4"
       }
     },
     {
